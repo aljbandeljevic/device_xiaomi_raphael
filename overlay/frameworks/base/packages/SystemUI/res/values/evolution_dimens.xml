@@ -19,9 +19,12 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
+    <!-- FOD recognizing animation -->
+    <dimen name="fod_animation_size">220dp</dimen>
+
     <!-- FOD recognizing animation vertical position offset -->
-    <dimen name="fod_animation_offset">3dp</dimen>
+    <dimen name="fod_animation_offset">1.0px</dimen>
 
     <!-- Bottom margin size when fingerprint in display is active -->
-    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">192dp</dimen>
+    <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">25dp</dimen>
 </resources>
