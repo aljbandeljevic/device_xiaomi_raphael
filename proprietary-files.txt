@@ -8,10 +8,6 @@ vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/29/lib/soundfx/li
 # Bluetooth (btconfigstore) - from MIUI - RKQ1.200826.002
 system_ext/lib/libbtconfigstore.so
 system_ext/lib64/libbtconfigstore.so
-system_ext/lib/vendor.qti.hardware.btconfigstore@1.0.so
-system_ext/lib/vendor.qti.hardware.btconfigstore@2.0.so
-system_ext/lib64/vendor.qti.hardware.btconfigstore@1.0.so
-system_ext/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 
 # Bluetooth (aptX)
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
