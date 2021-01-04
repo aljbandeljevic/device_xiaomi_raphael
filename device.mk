@@ -14,6 +14,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/raphael/raphael-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
