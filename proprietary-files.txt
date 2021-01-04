@@ -5,15 +5,17 @@ vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/29/lib/soundfx/li
 # Alarm
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
 
-# Bluetooth (btconfigstore)
-product/lib/libbtconfigstore.so
-product/lib64/libbtconfigstore.so
-product/lib/vendor.qti.hardware.btconfigstore@1.0.so
-product/lib64/vendor.qti.hardware.btconfigstore@1.0.so
+# Bluetooth (btconfigstore) - from MIUI - RKQ1.200826.002
+system_ext/lib/libbtconfigstore.so
+system_ext/lib64/libbtconfigstore.so
+system_ext/lib/vendor.qti.hardware.btconfigstore@1.0.so
+system_ext/lib/vendor.qti.hardware.btconfigstore@2.0.so
+system_ext/lib64/vendor.qti.hardware.btconfigstore@1.0.so
+system_ext/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 
 # Bluetooth (aptX)
-product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # CNE
 etc/cne/Nexus/ATT/ATT_profiles.xml
