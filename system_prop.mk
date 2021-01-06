@@ -63,7 +63,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.enable_hwc_vds=1 \
-    debug.cpurend.vsync=false
+    debug.cpurend.vsync=false \
+    persist.debug.wfd.enable=0
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
