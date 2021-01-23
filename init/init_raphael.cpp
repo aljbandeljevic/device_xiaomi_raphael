@@ -69,6 +69,8 @@ void load_raphaelglobal() {
     property_override("ro.build.product", "raphael");
     property_override("ro.product.device", "raphael");
     property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V12.0.3.0.QFKMIXM release-keys");
+    property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
+        "ro.vendor.build.fingerprint", "Xiaomi/raphael/raphael:10/QKQ1.190825.002/V12.0.3.0.QFKMIXM:user/release-keys");
 }
 
 void load_raphaelin() {
@@ -77,6 +79,8 @@ void load_raphaelin() {
     property_override("ro.build.product", "raphaelin");
     property_override("ro.product.device", "raphaelin");
     property_override("ro.build.description", "raphaelin-user 10 QKQ1.190825.002 V12.0.4.0.QFKINXM release-keys");
+    property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
+        "ro.vendor.build.fingerprint", "Xiaomi/raphaelin/raphaelin:10/QKQ1.190825.002/V12.0.4.0.QFKINXM:user/release-keys");
 }
 
 void load_raphael() {
@@ -85,6 +89,8 @@ void load_raphael() {
     property_override("ro.build.product", "raphael");
     property_override("ro.product.device", "raphael");
     property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V12.0.6.0.QFKCNXM release-keys");
+    property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
+        "ro.vendor.build.fingerprint", "Xiaomi/raphael/raphael:10/QKQ1.190825.002/V12.0.6.0.QFKCNXM:user/release-keys");
 }
 
 void vendor_load_properties() {
@@ -107,6 +113,4 @@ void vendor_load_properties() {
     property_override("org.evolution.build_support_url", "https://t.me/EvolutionXRaphael");
     property_override("ro.apex.updatable", "true");
     property_override("ro.oem_unlock_supported", "0");
-    property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
-        "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
 }
