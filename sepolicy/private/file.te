@@ -16,10 +16,17 @@ type sysfs_usb_supply, sysfs_type, fs_type;
 type pps_socket, file_type;
 
 #sysfs
-type sysfs_graphics, sysfs_type, fs_type;
-type sysfs_tp_fodstatus, sysfs_type, fs_type;
-type sysfs_kgsl, sysfs_type, fs_type;
 type sysfs_device_info, sysfs_type, fs_type;
+type sysfs_mmc_host, fs_type, sysfs_type;
+type sysfs_tp_fodstatus, sysfs_type, fs_type;
+
+#SurfaceFlinger file type for sysfs access
+type sysfs_graphics, sysfs_type, fs_type;
+
+# kgsl file type for sysfs access
+type sysfs_kgsl, sysfs_type, fs_type;
+
+# Files accessed by qcom-system-daemon
 type sysfs_soc, sysfs_type, fs_type;
 
 # Wifi Data file
