@@ -19,9 +19,6 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- FOD recognizing animation -->
-    <dimen name="fod_animation_size">220dp</dimen>
-
     <!-- FOD recognizing animation vertical position offset -->
     <dimen name="fod_animation_offset">1.0px</dimen>
 
