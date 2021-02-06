@@ -178,25 +178,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AospFrameworkResOverlay \
     AospWifiResOverlay \
-    CarrierConfigResCommon \
-    CellBroadcastReceiverResCommon \
-    DevicesAndroidOverlay \
-    DevicesOverlay \
-    DocumentsUIOverlay \
-    ElderlyNavigationBarOverlay \
     FrameworksResCommon \
     FrameworksResTarget \
-    GestureLineOverlay \
-    MccMncOverlay \
-    MiuiBiometricResOverlay \
-    MiuiBluetoothOverlay \
-    MiuiFrameworkResOverlay \
-    MiuiSettingsResOverlay \
-    MiuiSystemUIResOverlay \
-    OptInAppOverlay \
+    GmsTelecommOverlay \
+    GmsTelephonyOverlay \
     SystemUIResCommon \
     TelecommResCommon \
-    TelephonyResCommon
+    TelephonyResCommon \
+    WifiResCommon \
+    WifiResTarget
 
 # WiFi
 PRODUCT_PACKAGES += \
