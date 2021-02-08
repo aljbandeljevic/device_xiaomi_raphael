@@ -128,6 +128,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
     com.gsma.services.nfc \
     NfcNci \
@@ -152,8 +153,7 @@ PRODUCT_HOST_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    vendor/nxp/opensource/sn100x
+    $(LOCAL_PATH)
 
 # Telephony
 PRODUCT_PACKAGES += \
